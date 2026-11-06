@@ -71,7 +71,7 @@ interface TripApiResponse {
   routes?: RouteResult[];
 }
 
-const API_URL = "https://stormroute-spotter.vercel.app/api/trips/"; 
+const API_URL = "http://127.0.0.1:8000/api/trips/"; 
 /*local development:http://127.0.0.1:8000*/
 
 
