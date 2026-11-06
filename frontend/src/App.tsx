@@ -71,7 +71,9 @@ interface TripApiResponse {
   routes?: RouteResult[];
 }
 
-const API_URL = "http://127.0.0.1:8000/api/trips/";
+const API_URL = "https://stormroute-spotter.vercel.app/api/trips/"; 
+/*local development:http://127.0.0.1:8000*/
+
 
 const riskColor = (risk?: string) => {
   switch (risk?.toLowerCase()) {
